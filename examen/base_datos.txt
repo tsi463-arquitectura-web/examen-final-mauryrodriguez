@@ -1,0 +1,11 @@
+create database examen
+use examen
+
+create table servicio(
+cod varchar (50) not null,
+nombre varchar (50) not null,
+descripcion varchar (400) not null
+
+)
+
+select *from servicio
